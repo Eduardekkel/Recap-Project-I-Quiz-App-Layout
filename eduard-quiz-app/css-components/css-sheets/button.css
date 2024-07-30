@@ -1,0 +1,16 @@
+.show-answer {
+  display: flex;
+  justify-content: center;
+  color: var(--background-color);
+  background-color: var(--text-color);
+  width: 50vw;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}

@@ -1,0 +1,25 @@
+@import "./css-components/css-sheets/button.css";
+@import "./css-components/css-sheets/card.css";
+@import "./css-components/css-sheets/header.css";
+@import "./css-components/css-sheets/navigation.css";
+
+:root {
+  --primary-color: #bc72fdb4;
+  --secondary-color: #bf3c2e;
+  --background-color: #ddd0c0;
+  --text-color: #0c0c0c;
+  --current-color: #cdbeaa;
+  --hovering-color: #ebebeb;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+main {
+  padding-bottom: 50px;
+}
