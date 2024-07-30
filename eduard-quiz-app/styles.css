@@ -7,7 +7,7 @@
   --primary-color: #bc72fdb4;
   --secondary-color: #bf3c2e;
   --background-color: #ddd0c0;
-  --text-color: #0c0c0c;
+  --text-color: #262626;
   --current-color: #cdbeaa;
   --hovering-color: #ebebeb;
 }
@@ -22,4 +22,10 @@ body {
 
 main {
   padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 15px;
+  font-style: oblique;
+  color: var(--text-color);
 }

@@ -52,3 +52,15 @@ h2 {
 .empty-bookmark img {
   height: 30px;
 }
+
+.checked-bookmark {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.checked-bookmark img {
+  height: 30px;
+}

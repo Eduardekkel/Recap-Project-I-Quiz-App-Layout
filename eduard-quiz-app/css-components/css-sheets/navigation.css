@@ -26,6 +26,7 @@ a:hover {
   margin-bottom: 0px;
 }
 
-.home-link {
-  background-color: white;
+#active {
+  background-color: rgb(210, 210, 210);
+  filter: invert(1);
 }
