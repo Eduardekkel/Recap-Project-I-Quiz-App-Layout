@@ -8,61 +8,42 @@
   </head>
   <body>
     <header>
-      <h1>Hey, Eduard</h1>
+      <h1>QUIZ APP</h1>
     </header>
     <main>
-      <section>
-        <h3>About You</h3>
-      </section>
-      <section class="question-card">
-        <button class="checked-bookmark">
+      <section class="profile">
+        <div class="profile__name-wrapper">
           <img
-            src="./css-components/bookmark-check.svg"
-            alt="checked-bookmark"
+            class="profile__icon active"
+            src="./css-components/guts.png"
+            alt="profile picture"
           />
-        </button>
-        <h2>
-          In CSS, what property is used to control the spacing between lines of
-          text within an element?
-        </h2>
-        <p class="answer" hidden>line-height</p>
-        <button class="show-answer">Show Answer</button>
-        <ul class="categories">
-          <li class="tag">#html</li>
-          <li class="tag">#css</li>
-        </ul>
+          <h4 class="profile__name">Max Doe</h4>
+        </div>
+        <h3 class="profile__about-me-header">About me</h3>
+        <p class="profile__about-me-content">Lorum ipsum</p>
+        <div class="profile__button-wrapper">
+          <button class="profile__question-button">
+            <img src="./css-components/message-circle-question.svg" />
+            <span>12</span>
+          </button>
+          <button class="profile__bookmark-button">
+            <img src="./css-components/bookmark-check.svg" />
+            <span>4</span>
+          </button>
+        </div>
       </section>
-      <section class="question-card">
-        <button class="checked-bookmark">
-          <img
-            src="./css-components/bookmark-check.svg"
-            alt="checked-bookmark"
-          />
-        </button>
-        <h2>Which city did Imagine Dragons originate from?</h2>
-        <p class="answer" hidden>Las Vegas, Nevada, USA</p>
-        <button class="show-answer">Show Answer</button>
-        <ul class="categories">
-          <li class="tag">#internet</li>
-          <li class="tag">#web</li>
-        </ul>
-      </section>
-      <section class="question-card">
-        <button class="checked-bookmark">
-          <img
-            src="./css-components/bookmark-check.svg"
-            alt="checked-bookmark"
-          />
-        </button>
-        <h2>What type of creature is Dobby?</h2>
-        <p class="answer" hidden>House Elf</p>
-        <button class="show-answer">Show Answer</button>
-        <ul class="categories">
-          <li class="tag">#cinema</li>
-          <li class="tag">#hp</li>
-          <li class="tag">#harrypotter</li>
-          <li class="tag">#magic</li>
-        </ul>
+      <section class="settings">
+        <h2 class="settings__title">Settings</h2>
+        <div class="settings__dark-mode-wrapper">
+          <label for="dark-mode" class="settings__dark-mode-label"
+            >Dark Mode</label
+          >
+          <div class="switch-container">
+            <input id="dark-mode" type="checkbox" />
+            <div class="switch"></div>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
@@ -70,10 +51,10 @@
         <a href="index.html" class="home-link"
           ><img src="./css-components/layout-grid.svg" alt="Home"
         /></a>
-        <a href="bookmarks.html" id="active" class="bookmark-link"
+        <a href="bookmarks.html" class="bookmark-link"
           ><img src="./css-components/bookmark.svg" alt="Bookmark"
         /></a>
-        <a href="#user" class="user-link"
+        <a href="profile.html" id="active" class="user-link"
           ><img src="./css-components/user-round.svg" alt="User"
         /></a>
       </nav>
