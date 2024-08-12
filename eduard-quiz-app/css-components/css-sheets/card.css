@@ -1,0 +1,84 @@
+h2 {
+  width: 50vw;
+  color: var(--background-color);
+  font-size: 15px;
+}
+.question-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.27);
+  padding: 10px;
+  margin: 5%;
+}
+
+.question-card__icon {
+  position: absolute;
+  height: 50px;
+  right: 0;
+  top: -7px;
+}
+
+.question-content h2 {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.categories {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 20px;
+  flex-wrap: wrap;
+  font-size: 0.8em;
+  color: var(--primary-color);
+}
+
+.tag {
+  list-style: none;
+  display: inline-block;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--primary-color);
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 2px;
+  color: var(--background-color);
+}
+
+.empty-bookmark {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.empty-bookmark img {
+  height: 30px;
+}
+
+.checked-bookmark {
+  background: none;
+  border: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.checked-bookmark img {
+  height: 30px;
+}
+
+.hidden {
+  display: none;
+}
+
+.answer {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: var(--background-color);
+}

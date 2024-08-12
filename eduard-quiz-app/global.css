@@ -1,0 +1,26 @@
+:root {
+  --primary-color: #bc72fdb4;
+  --secondary-color: #bf3c2e;
+  --background-color: #ddd0c0;
+  --text-color: #262626;
+  --current-color: #cdbeaa;
+  --hovering-color: #ebebeb;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0px;
+  text-align: center;
+  background-color: var(--background-color);
+}
+
+main {
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-size: 15px;
+  font-style: oblique;
+  color: var(--text-color);
+}

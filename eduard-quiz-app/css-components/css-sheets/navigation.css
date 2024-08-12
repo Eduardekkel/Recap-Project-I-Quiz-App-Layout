@@ -1,0 +1,38 @@
+footer {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--background-color);
+}
+
+a:hover {
+  background-color: var(--hovering-color);
+}
+
+.navbar {
+  bottom: 0;
+  display: flex;
+  background-color: var(--background-color);
+  justify-content: space-between;
+  box-shadow: 0px 10px 13px 10px rgba(0, 0, 0, 0.213);
+}
+
+.navbar img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-items: space-between;
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#active {
+  background-color: rgb(212, 211, 211);
+  filter: invert(1);
+}

@@ -1,0 +1,25 @@
+.show-answer {
+  display: flex;
+  justify-content: center;
+  color: var(--background-color);
+  background-color: var(--text-color);
+  width: 50vw;
+  border: none;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+button:hover {
+  background-color: var(--primary-color);
+}
+
+.create-card {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

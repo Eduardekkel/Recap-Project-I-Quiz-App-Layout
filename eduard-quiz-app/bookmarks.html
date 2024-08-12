@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>QUIZ APP</h1>
+    </header>
+    <main>
+      <section>
+        <h3>YOUR SAVED QUESTIONS</h3>
+      </section>
+      <section class="question-card">
+        <img
+        class="question-card__icon"
+        src="./css-components/bookmark-check.svg"
+        alt="bookmark"/>
+        </button>
+        <h2>
+          In CSS, what property is used to control the spacing between lines of
+          text within an element?
+        </h2>
+        <p class="answer" hidden>line-height</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#html</li>
+          <li class="tag">#css</li>
+        </ul>
+      </section>
+      <section class="question-card">
+          <img
+          class="question-card__icon"
+          src="./css-components/bookmark-check.svg"
+          alt="bookmark"/>
+        </button>
+        <h2>Which city did Imagine Dragons originate from?</h2>
+        <p class="answer" hidden>Las Vegas, Nevada, USA</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#internet</li>
+          <li class="tag">#web</li>
+        </ul>
+      </section>
+      <section class="question-card">
+        <img
+        class="question-card__icon"
+        src="./css-components/bookmark-check.svg"
+        alt="bookmark"/>
+        </button>
+        <h2>What type of creature is Dobby?</h2>
+        <p class="answer" hidden>House Elf</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#cinema</li>
+          <li class="tag">#hp</li>
+          <li class="tag">#harrypotter</li>
+          <li class="tag">#magic</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="navbar">
+        <a href="index.html" class="home-link"
+          ><img src="./css-components/layout-grid.svg" alt="Home-clicked"
+        /></a>
+        <a href="bookmarks.html" id="active" class="bookmark-link"
+          ><img src="./css-components/bookmark.svg" alt="Bookmark"
+        /></a>
+        <a href="form.html" class="form-link"
+        ><img src="./css-components/plus.svg" alt="form"
+        /></a>
+        <a href="profile.html" class="user-link"
+          ><img src="./css-components/user-round.svg" alt="User"
+        /></a>
+    </footer>
+  </body>
+</html>
