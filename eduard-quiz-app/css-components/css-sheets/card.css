@@ -13,6 +13,13 @@ h2 {
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.27);
   padding: 10px;
   margin: 5%;
+  flex: 1;
+}
+
+@media (max-width: 768px) {
+  .question-card {
+    flex: 1 0 100%;
+  }
 }
 
 .question-card__icon {
