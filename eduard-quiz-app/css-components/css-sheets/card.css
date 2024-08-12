@@ -71,3 +71,14 @@ h2 {
 .checked-bookmark img {
   height: 30px;
 }
+
+.hidden {
+  display: none;
+}
+
+.answer {
+  margin-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-style: italic;
+  color: var(--background-color);
+}

@@ -14,3 +14,12 @@
 button:hover {
   background-color: var(--primary-color);
 }
+
+.create-card {
+  border: none;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+  color: var(--text-color);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
