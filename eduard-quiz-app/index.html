@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>title</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>QUIZ APP</h1>
+    </header>
+    <main>
+      <section class="question-card">
+        <img
+          class="question-card__icon"
+          id="empty-bookmark"
+          src="./css-components/bookmark.svg"
+          alt="empty bookmark"
+          data-js="bookmark-empty"
+        />
+
+        <h2>What does the acronym "WWW" stand for?</h2>
+        <button class="show-answer" data-answer-id="answer1">
+          Show Answer
+        </button>
+        <div id="answer1" class="answer hidden">World Wide Web</div>
+        <ul class="categories">
+          <li class="tag">#internet</li>
+          <li class="tag">#web</li>
+        </ul>
+      </section>
+      <section class="question-card">
+        <img
+          class="question-card__icon"
+          src="./css-components/bookmark.svg"
+          alt="bookmark"
+          data-js="bookmark-empty"
+        />
+        <h2>Who is often credited with inventing the World Wide Web?</h2>
+        <p class="answer" hidden>Tim Berners-Lee</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#internet</li>
+          <li class="tag">#web</li>
+        </ul>
+      </section>
+      <section class="question-card">
+        <img
+          class="question-card__icon"
+          src="./css-components/bookmark.svg"
+          alt="bookmark"
+        />
+        <h2>What is the real name of the superhero known as Iron Man?</h2>
+        <p class="answer" hidden>Tony Stark</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#cinema</li>
+          <li class="tag">#marvel</li>
+          <li class="tag">#mcu</li>
+          <li class="tag">#superhero</li>
+        </ul>
+      </section>
+      <section class="question-card">
+        <img
+          class="question-card__icon"
+          src="./css-components/bookmark.svg"
+          alt="bookmark"
+        />
+        <h2>
+          What is the protocol used to transfer data from a web server to a web
+          browser, enabling the viewing of web pages?
+        </h2>
+        <p class="answer" hidden>HTTP (Hypertext Transfer Protocol)</p>
+        <button class="show-answer">Show Answer</button>
+        <ul class="categories">
+          <li class="tag">#web</li>
+          <li class="tag">#internet</li>
+          <li class="tag">#computer</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="navbar">
+      <a href="index.html" id="active" class="home-link"
+        ><img src="./css-components/layout-grid.svg" alt="Home"
+      /></a>
+      <a href="bookmarks.html" class="bookmark-link"
+        ><img src="./css-components/bookmark.svg" alt="favorites"
+      /></a>
+      <a href="form.html" class="form-link"
+        ><img src="./css-components/plus.svg" alt="form"
+      /></a>
+      <a href="profile.html" class="user-link"
+        ><img src="./css-components/user-round.svg" alt="User"
+      /></a>
+    </footer>
+  </body>
+</html>

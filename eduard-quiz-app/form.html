@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add a new Card</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="./form.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>QUIZ APP</h1>
+    </header>
+    <main>
+      <h3>Add a New Card</h3>
+      <form>
+        <label for="question">Your question:</label>
+        <textarea
+          id="question"
+          name="question"
+          required
+          maxlength="150"
+        ></textarea>
+        <span id="question-chars">150 characters left</span>
+
+        <label for="answer">Your answer:</label>
+        <textarea id="answer" name="answer" required maxlength="150"></textarea>
+        <span id="answer-chars">150 characters left</span>
+
+        <label for="tag">Tag:</label>
+        <input type="text" id="tag" name="tag" required />
+
+        <button class="create-card" type="submit">Create Card</button>
+      </form>
+    </main>
+    <footer class="navbar">
+      <a href="index.html" class="home-link"
+        ><img src="./css-components/layout-grid.svg" alt="Home"
+      /></a>
+      <a href="bookmarks.html" class="bookmark-link"
+        ><img src="./css-components/bookmark.svg" alt="favorites"
+      /></a>
+      <a href="form.html" id="active" class="form-link"
+        ><img src="./css-components/plus.svg" alt="form"
+      /></a>
+      <a href="profile.html" class="user-link"
+        ><img src="./css-components/user-round.svg" alt="User"
+      /></a>
+    </footer>
+  </body>
+</html>
